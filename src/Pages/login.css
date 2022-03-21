@@ -1,0 +1,75 @@
+hr {
+  padding: 2px;
+}
+
+.other-sign-in {
+  cursor: pointer !important;
+}
+.custom-button {
+  background-color: #3e489a;
+  color: white;
+  width: 50%;
+  border: 1px solid #3e489a;
+  transition: all ease 0.3s;
+}
+.custom-button:hover {
+  background-color: white;
+  color: #3e489a;
+  width: 50%;
+}
+.custom-border-radius {
+  border-radius: 7px;
+}
+.custom-form-background {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+}
+.login-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px gray;
+  padding: 40px 10px;
+}
+.login-card .t-logo {
+  width: 40%;
+  object-fit: scale-down;
+  /* padding-top: 100px; */
+}
+.forget-pass-text {
+  width: 50%;
+}
+.forget-pass-text p {
+  cursor: pointer;
+}
+
+.or-style {
+  position: relative;
+  overflow: hidden;
+}
+.or-style::before {
+  position: absolute;
+  content: "";
+  top: 12px;
+  left: 2%;
+  width: 45%;
+  height: 2px;
+  background-color: #1c1c1c;
+}
+.or-style::after {
+  position: absolute;
+  content: "";
+  top: 12px;
+  right: 2%;
+  width: 45%;
+  height: 2px;
+  background-color: #0a0a0a;
+}
+
+/* person image style */
+.person-image-container {
+  position: absolute;
+  bottom: -48px;
+  /* margin-bottom: -48px; */
+  left: 0px;
+}
